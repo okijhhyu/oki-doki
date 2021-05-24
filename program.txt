@@ -1,0 +1,26 @@
+
+vars int:(a,u,t);
+real:(s,m,p)
+
+{
+
+u:=0;
+a:=91;
+s:=0.0;
+m:=0.0;
+while (u<a){
+u:=u+1;
+m:=4.0*s*(180.0-s);
+p:=s*(180.0-s);
+m:=m/(40500.0-p);
+print("sin(");
+print(s);
+print("):=");
+print(m);
+print(";\n");
+s:=s+1.0
+}
+}
+
+
+
